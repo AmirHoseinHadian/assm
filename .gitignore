@@ -1,0 +1,34 @@
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+dist/
+build/
+.idea
+
+# Docs related
+docs/_build/
+
+# stan cashed models
+/pkl_files
+cached*.pkl
+*.pkl
+
+# ignore the stan cached files (hpp and with no extension); only allow .stan files
+assm/stan_models/aDDM/*
+!assm/stan_models/aDDM/*.stan
+
+assm/stan_models/GARD_2A/*
+!assm/stan_models/GARD_2A/*.stan
+
+assm/stan_models/GARD_nA/*
+!assm/stan_models/GARD_nA/*.stan
+
+assm/stan_models/GLAM_2A/*
+!assm/stan_models/GLAM_2A/*.stan
+
+assm/stan_models/GLAM_nA/*
+!assm/stan_models/GLAM_nA/*.stan
+
+assm/stan_models/maGARD_2A/*
+!assm/stan_models/maGARD_2A/*.stan
