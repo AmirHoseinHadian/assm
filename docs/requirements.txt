@@ -1,0 +1,10 @@
+sphinx
+sphinx_rtd_theme
+nbsphinx
+recommonmark
+numpy
+pandas
+seaborn
+scipy
+cmdstanpy==1.0.4
+rlssm
