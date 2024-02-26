@@ -21,6 +21,9 @@ Requires: numpy
 Requires: pandas
 Requires: cmdstanpy
 License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: cmdstanpy
 
 
 

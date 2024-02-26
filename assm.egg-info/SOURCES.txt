@@ -43,4 +43,3 @@ assm/utility/__init__.py
 assm/utility/load_data.py
 assm/utility/stan_utility.py
 assm/utility/utils.py
-tests/__init__.py
