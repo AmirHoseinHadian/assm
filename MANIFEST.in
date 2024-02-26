@@ -1,1 +1,1 @@
-include rlssm/stan_models/*
+include assm/stan_models/*
