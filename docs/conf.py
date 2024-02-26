@@ -1,4 +1,4 @@
-import rlssm.version
+import assm.version
 
 # Configuration file for the Sphinx documentation builder.
 #
@@ -19,13 +19,13 @@ import rlssm.version
 
 # -- Project information -----------------------------------------------------
 
-project = 'rlssm'
-copyright = '2022, Laura Fontanesi'
+project = 'assm'
+copyright = '2024, Amir Hosein Hadian Rasanan'
 author = 'Laura Fontanesi'
-# authors = "Laura Fontanesi, Amir Hosein Hadian Rasanan, Andrei Birgovan and Pr. Dr. Jörg Rieskamp"
+# authors = "Amir Hosein Hadian Rasanan and Pr. Dr. Jörg Rieskamp"
 
 # The full version, including alpha/beta/rc tags
-release = __version__ = rlssm.version.__version__
+release = __version__ = assm.version.__version__
 
 # -- General configuration ---------------------------------------------------
 
