@@ -5,93 +5,47 @@ Model classes
 
 These classes can be used to define different available models. Currently, 3 classes of models are implemented in `assm`:
 
-1. simple reinforcement learning models: :ref:`RLModel_2A <RLModel_2A>`
-2. diffusion decision models: :ref:`DDModel <DDModel>`
-3. reinforcement learning diffusion decision models: :ref:`RLDDModel <RLDDModel>`
-4. race models: :ref:`RDModel_2A <RDModel_2A>`, :ref:`LBAModel_2A <LBAModel_2A>`, :ref:`ARDModel_2A <ARDModel_2A>`, :ref:`ALBAModel_2A <ALBAModel_2A>`
-5. reinforcement learning race models: :ref:`RLRDModel_2A <RLRDModel_2A>`, :ref:`RLLBAModel_2A <RLLBAModel_2A>`, :ref:`RLARDModel_2A <RLARDModel_2A>`, :ref:`RLALBAModel_2A <RLALBAModel_2A>`
+1. Attentional drift diffusion models: :ref:`aDDModel <aDDModel>`
+2. Gaze weighted linear accumulator models: :ref:`GLAModel_2A <GLAModel_2A>`, :ref:`GLAModel_nA <GLAModel_nA>`
+3. Gaze advantage race diffusion models: :ref:`GARDModel_2A <GARDModel_2A>`, :ref:`GARDModel_nA <GARDModel_nA>`
 
 All classes have a hierarchical and non-hierarchical version, and come with additional cognitive mechanisms that can be added or excluded.
 
-.. note:: At the moment, all model classes are meant for decisions between 2 alternatives.
+Attentional drift diffusion models
+-----------------------------------------------
 
-Reinforcement learning models (for 2 alternatives)
---------------------------------------------------
-
-.. _RLModel_2A:
-.. autoclass:: rlssm.model.models_RL.RLModel_2A
+.. _aDDModel:
+.. autoclass:: assm.model.models_aDDM.aDDModel
     :members:
 
     .. automethod:: __init__
 
-Diffusion decision models
--------------------------
-
-.. _DDModel:
-.. autoclass:: rlssm.model.models_DDM.DDModel
-    :members:
-
-    .. automethod:: __init__
-
-Reinforcement learning diffusion decision models
+Gaze weighted linear accumulator models
 ------------------------------------------------
 
-.. _RLDDModel:
-.. autoclass:: rlssm.model.models_DDM.RLDDModel
+.. _GLAModel_2A:
+.. autoclass:: assm.model.models_GLAM.GLAModel_2A
     :members:
 
     .. automethod:: __init__
 
-Race models (for 2 alternatives)
---------------------------------
-
-.. _RDModel_2A:
-.. autoclass:: rlssm.model.models_RDM.RDModel_2A
+.. _GLAModel_nA:
+.. autoclass:: assm.model.models_GLAM.GLAModel_nA
     :members:
 
     .. automethod:: __init__
 
-.. _LBAModel_2A:
-.. autoclass:: rlssm.model.models_LBA.LBAModel_2A
+Gaze advantage race diffusion models
+------------------------------------------------
+
+.. _GARDModel_2A:
+.. autoclass:: assm.model.models_GARD.GARDModel_2A
     :members:
 
     .. automethod:: __init__
 
-.. _ARDModel_2A:
-.. autoclass:: rlssm.model.models_ARDM.ARDModel_2A
-    :members:
-
-    .. automethod:: __init__
-
-.. _ALBAModel_2A:
-.. autoclass:: rlssm.model.models_ALBA.ALBAModel_2A
-    :members:
-
-    .. automethod:: __init__
-
-Reinforcement learning race models (for 2 alternatives)
--------------------------------------------------------
-
-.. _RLRDModel_2A:
-.. autoclass:: rlssm.model.models_RDM.RLRDModel_2A
-    :members:
-
-    .. automethod:: __init__
-
-.. _RLLBAModel_2A:
-.. autoclass:: rlssm.model.models_LBA.RLLBAModel_2A
-    :members:
-
-    .. automethod:: __init__
-
-.. _RLARDModel_2A:
-.. autoclass:: rlssm.model.models_ARDM.RLARDModel_2A
-    :members:
-
-    .. automethod:: __init__
-
-.. _RLALBAModel_2A:
-.. autoclass:: rlssm.model.models_ALBA.RLALBAModel_2A
+.. _GARDModel_nA:
+.. autoclass:: assm.model.models_GARD.GARDModel_nA
     :members:
 
     .. automethod:: __init__
