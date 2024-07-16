@@ -21,8 +21,7 @@ import assm.version
 
 project = 'assm'
 copyright = '2024, Amir Hosein Hadian Rasanan'
-author = 'Laura Fontanesi'
-# authors = "Amir Hosein Hadian Rasanan and Pr. Dr. Jörg Rieskamp"
+authors = "Amir Hosein Hadian Rasanan with the support of Prof. Dr. Jörg Rieskamp"
 
 # The full version, including alpha/beta/rc tags
 release = __version__ = assm.version.__version__
